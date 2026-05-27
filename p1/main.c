@@ -27,7 +27,7 @@ int main(void)
         }
         c1=0;
     } 
-    printf("%c" "%d", x, c2);
+    printf("%c""%d", x, c2);
 
     return 0;
 }
