@@ -2,14 +2,14 @@
 
 int main(void)
 {
-    int x;
+    char x;
     int c2 = 1;
     int c1 = 0;
     int arr[10] = {};
     int *p = nullptr;
     
     for(p = arr; p < arr + 10; p++){
-        scanf(" %d", p);
+        scanf(" %c", p);
     }
 
     x = *p;
