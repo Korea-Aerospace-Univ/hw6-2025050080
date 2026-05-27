@@ -12,7 +12,7 @@ int main(void)
         scanf(" %c", p);
     }
 
-    x = *p;
+    x = arr[0];
       
     for(p = arr; p < arr + 10; p++){
         for(char *q = arr; q < arr + 10; q++){
