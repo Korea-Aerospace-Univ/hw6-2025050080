@@ -5,8 +5,8 @@ int main(void)
     char x;
     int c2 = 1;
     int c1 = 0;
-    int arr[10] = {};
-    int *p = nullptr;
+    char arr[10] = {};
+    char *p = nullptr;
     
     for(p = arr; p < arr + 10; p++){
         scanf(" %c", p);
@@ -15,7 +15,7 @@ int main(void)
     x = *p;
       
     for(p = arr; p < arr + 10; p++){
-        for(int *q = arr; q < arr + 10; q++){
+        for(char *q = arr; q < arr + 10; q++){
             if(*p == *q){
                 c1++;
                 
