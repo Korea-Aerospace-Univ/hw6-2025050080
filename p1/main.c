@@ -1,6 +1,6 @@
 int main(void)
 {
-    char x;
+    int x;
     int c2 = 1;
     int c1 = 0;
     int arr[10] = {};
