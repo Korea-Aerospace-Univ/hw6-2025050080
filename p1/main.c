@@ -9,7 +9,7 @@ int main(void)
     int *p = nullptr;
     
     for(p = arr; p < arr + 10; p++){
-        scanf(" %c", p);
+        scanf(" %d", p);
     }
 
     x = *p;
